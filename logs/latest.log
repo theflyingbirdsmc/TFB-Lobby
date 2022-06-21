@@ -1,0 +1,26 @@
+[00:00:43] [Timer-5/INFO]: [VotingPlugin] Detected day changed, processing...
+[00:00:43] [Timer-5/INFO]: [VotingPlugin] Time change event: DAY, Fake: false
+[00:00:43] [Timer-5/INFO]: [VotingPlugin] Finished processing day change, took 0 seconds
+[00:00:43] [Timer-5/INFO]: [VotingPlugin] Created zip file at /home/container/plugins/VotingPlugin/Backups/Backup-2022_JUNE_21.zip
+[00:00:43] [Timer-5/INFO]: [VotingPlugin] Finished processing day changes
+[05:41:12] [Craft Scheduler Thread - 2212 - BuycraftX/WARN]: [BuycraftX] Plugin BuycraftX v12.0.8 generated an exception while executing task 3639
+net.buycraft.plugin.BuyCraftAPIException: Unexpected content-type text/html; charset=UTF-8
+	at net.buycraft.plugin.BuyCraftAPI$1.intercept(BuyCraftAPI.java:67) ~[BuycraftX.jar:?]
+	at net.buycraft.plugin.internal.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[BuycraftX.jar:?]
+	at net.buycraft.plugin.internal.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[BuycraftX.jar:?]
+	at net.buycraft.plugin.BuyCraftAPI$2.intercept(BuyCraftAPI.java:53) ~[BuycraftX.jar:?]
+	at net.buycraft.plugin.internal.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[BuycraftX.jar:?]
+	at net.buycraft.plugin.internal.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[BuycraftX.jar:?]
+	at net.buycraft.plugin.internal.okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:254) ~[BuycraftX.jar:?]
+	at net.buycraft.plugin.internal.okhttp3.RealCall.execute(RealCall.java:92) ~[BuycraftX.jar:?]
+	at net.buycraft.plugin.internal.retrofit2.OkHttpCall.execute(OkHttpCall.java:186) ~[BuycraftX.jar:?]
+	at net.buycraft.plugin.execution.DuePlayerFetcher.run(DuePlayerFetcher.java:62) ~[BuycraftX.jar:?]
+	at net.buycraft.plugin.execution.DuePlayerFetcher.run(DuePlayerFetcher.java:38) ~[BuycraftX.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.18.2.jar:git-Paper-299]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.18.2.jar:git-Paper-299]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.18.2.jar:git-Paper-299]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[05:47:44] [Craft Scheduler Thread - 2214 - LibsDisguises/INFO]: [LibsDisguises] Now looking for update on Github..
+[09:17:45] [Timer-12/INFO]: [VotingPlugin] VotingPlugin has an update available! Your Version: 6.8.4 New Version: 6.9.2
