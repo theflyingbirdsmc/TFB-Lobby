@@ -1,26 +1,29 @@
-[00:00:43] [Timer-5/INFO]: [VotingPlugin] Detected day changed, processing...
-[00:00:43] [Timer-5/INFO]: [VotingPlugin] Time change event: DAY, Fake: false
-[00:00:43] [Timer-5/INFO]: [VotingPlugin] Finished processing day change, took 0 seconds
-[00:00:43] [Timer-5/INFO]: [VotingPlugin] Created zip file at /home/container/plugins/VotingPlugin/Backups/Backup-2022_JUNE_21.zip
-[00:00:43] [Timer-5/INFO]: [VotingPlugin] Finished processing day changes
-[05:41:12] [Craft Scheduler Thread - 2212 - BuycraftX/WARN]: [BuycraftX] Plugin BuycraftX v12.0.8 generated an exception while executing task 3639
-net.buycraft.plugin.BuyCraftAPIException: Unexpected content-type text/html; charset=UTF-8
-	at net.buycraft.plugin.BuyCraftAPI$1.intercept(BuyCraftAPI.java:67) ~[BuycraftX.jar:?]
-	at net.buycraft.plugin.internal.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[BuycraftX.jar:?]
-	at net.buycraft.plugin.internal.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[BuycraftX.jar:?]
-	at net.buycraft.plugin.BuyCraftAPI$2.intercept(BuyCraftAPI.java:53) ~[BuycraftX.jar:?]
-	at net.buycraft.plugin.internal.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[BuycraftX.jar:?]
-	at net.buycraft.plugin.internal.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[BuycraftX.jar:?]
-	at net.buycraft.plugin.internal.okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:254) ~[BuycraftX.jar:?]
-	at net.buycraft.plugin.internal.okhttp3.RealCall.execute(RealCall.java:92) ~[BuycraftX.jar:?]
-	at net.buycraft.plugin.internal.retrofit2.OkHttpCall.execute(OkHttpCall.java:186) ~[BuycraftX.jar:?]
-	at net.buycraft.plugin.execution.DuePlayerFetcher.run(DuePlayerFetcher.java:62) ~[BuycraftX.jar:?]
-	at net.buycraft.plugin.execution.DuePlayerFetcher.run(DuePlayerFetcher.java:38) ~[BuycraftX.jar:?]
-	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.18.2.jar:git-Paper-299]
-	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.18.2.jar:git-Paper-299]
-	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.18.2.jar:git-Paper-299]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[05:47:44] [Craft Scheduler Thread - 2214 - LibsDisguises/INFO]: [LibsDisguises] Now looking for update on Github..
-[09:17:45] [Timer-12/INFO]: [VotingPlugin] VotingPlugin has an update available! Your Version: 6.8.4 New Version: 6.9.2
+[19:14:23] [ServerMain/INFO]: Building unoptimized datafixer
+[19:14:25] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:14:26] [ServerMain/INFO]: Loaded 7 recipes
+[19:14:28] [Server thread/INFO]: Starting minecraft server version 1.19
+[19:14:28] [Server thread/INFO]: Loading properties
+[19:14:28] [Server thread/INFO]: This server is running Paper version git-Paper-32 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT) (Git: 4c9317c)
+[19:14:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:14:28] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:14:29] [Server thread/INFO]: Default game type: ADVENTURE
+[19:14:29] [Server thread/INFO]: Generating keypair
+[19:14:29] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25600
+[19:14:29] [Server thread/INFO]: Using epoll channel type
+[19:14:29] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[19:14:29] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[19:14:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:14:29] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:14:29] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:14:29] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[19:14:29] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[19:14:29] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:14:29] [Server thread/INFO]: Preparing level "world"
+[19:14:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:14:30] [Server thread/INFO]: Time elapsed: 331 ms
+[19:14:30] [Server thread/WARN]: Could not register alias example_panel because it contains commands that do not exist: commandpanel
+[19:14:30] [Server thread/WARN]: Could not register alias tfb because it contains commands that do not exist: commandpanel
+[19:14:30] [Server thread/WARN]: Could not register alias TFB because it contains commands that do not exist: commandpanel
+[19:14:30] [Server thread/INFO]: Running delayed init tasks
+[19:14:30] [Server thread/INFO]: Done (1.727s)! For help, type "help"
+[19:14:30] [Server thread/INFO]: Timings Reset

@@ -1,3 +1,7 @@
 /plugins
 /server.jar
 /world
+/libraries
+/logs
+*.jar
+/versions
